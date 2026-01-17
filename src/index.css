@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-[#333e67];
+  @apply text-gray-300;
+}
+
+
+@theme {
+  --color-secondary: #1f263f;
+  --color-highlight: #262e4d;
+}
+
+/* ширина */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* ползунок */
+::-webkit-scrollbar-thumb {
+  background-color: #969696;
+  border-radius: 4px;
+}
+
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+  
+}
+
+.no-scrollbar {
+  scrollbar-width: none;       
+  -ms-overflow-style: none;    
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;               
+}
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.hyphenate {
+  hyphens: none; 
+}

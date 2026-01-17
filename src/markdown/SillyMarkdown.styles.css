@@ -1,0 +1,25 @@
+.silly-quote{
+  color: #f472b6;
+}
+
+.silly-bold{
+  font-weight: bold;
+}
+.silly-italic{
+  font-style: italic;
+}
+
+.silly-paragraph{
+  text-indent: 10px;
+  margin-bottom: 5px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+
+  overflow-wrap: break-word;
+}
+
+.silly-normal{
+  color: white;
+}

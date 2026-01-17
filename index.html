@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>chatie-hub</title>
+</head>
+
+<body>
+  <div lang="en" id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+
+  <script>
+    window.Hyphenopoly = {
+      require: {
+        "ru": "FORCEHYPHENOPOLY",
+        "en-us": "FORCEHYPHENOPOLY"
+      },
+      setup: {
+        selectors: {
+          ".hyphenate": {}
+        }
+      }
+    };
+  </script>
+  <script src="https://unpkg.com/hyphenopoly@5/Hyphenopoly_Loader.js"></script>
+
+</body>
+
+</html>
