@@ -53,13 +53,8 @@ const renderRichText = (content: string): React.ReactNode[] => {
   });
 };
 
-interface SillyMarkdownProps {
-  text: string;
-}
-
-export const SillyMarkdown: React.FC<SillyMarkdownProps> = ({ text }) => {
+export const SillyMarkdown = ({ text }: { text: string }) => {
   if (!text) return null;
-
   const paragraphs = text.split("\n");
 
   return (
